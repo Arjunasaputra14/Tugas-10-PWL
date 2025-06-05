@@ -5,7 +5,7 @@
     <h2>Profil Pengguna</h2>
     <ul class="list-group list-group-flush">
         <li class="list-group-item"><strong>Username:</strong> <?= esc($username) ?></li>
-        <li class="list-group-item"><strong>Email:</strong> <?= 'Adhityawisnu@gmail.com' ?></li>
+        <li class="list-group-item"><strong>Email:</strong> <?= 'Ap0901466@gmail.com' ?></li>
         <li class="list-group-item"><strong>Role:</strong> <?= esc($role) ?></li>
         <li class="list-group-item"><strong>Waktu Login:</strong> <?= date('Y-m-d H:i:s') ?></li>
         <li class="list-group-item"><strong>Status Login:</strong> <?= esc($status) ?></li>

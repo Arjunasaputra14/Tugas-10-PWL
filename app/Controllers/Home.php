@@ -11,12 +11,13 @@ class Home extends BaseController
 
     function __construct()
     {
+        helper('form');
+        helper('number');
         $this->product = new ProductModel(); 
     }
 
     public function index(): string
     {   
-
         $product = $this->product->findAll();
         $data['product'] = $product;
 
